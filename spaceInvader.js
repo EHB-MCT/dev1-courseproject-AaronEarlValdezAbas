@@ -1,5 +1,7 @@
 "use strict";
 
+window.onresize = signature;
+
 signature();
 
 function signature() {
@@ -16,55 +18,15 @@ function signature() {
     context.fillStyle = "green"
     context.beginPath();
     context.rect(25,25,50,50);
-    context.fill();
-
-    context.fillStyle = "green"
-    context.beginPath();
     context.rect(225 ,25,50,50);
-    context.fill();
-
-    context.fillStyle = "green"
-    context.beginPath();
     context.rect(75,75,50,50);
-    context.fill();
-
-    context.fillStyle = "green"
-    context.beginPath();
     context.rect(175,75,50,50);
-    context.fill();
-
-    context.fillStyle = "green"
-    context.beginPath();
     context.rect(25,125,50,50);
-    context.fill();
-
-    context.fillStyle = "green"
-    context.beginPath();
     context.rect(225,125,50,50);
-    context.fill();
-
-    context.fillStyle = "green"
-    context.beginPath();
     context.rect(125,125,50,50);
-    context.fill();
-
-    context.fillStyle = "green"
-    context.beginPath();
     context.rect(125,175,50,50);
-    context.fill();
-
-    context.fillStyle = "green"
-    context.beginPath();
     context.rect(125,225,50,50);
-    context.fill();
-
-    context.fillStyle = "green"
-    context.beginPath();
     context.rect(75,225,50,50);
-    context.fill();
-
-    context.fillStyle = "green"
-    context.beginPath();
     context.rect(175,225,50,50);
     context.fill();
 
